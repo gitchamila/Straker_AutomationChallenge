@@ -1,0 +1,3 @@
+2025-04-10 11:20:29,819 - playwright_tests - INFO - Logger initialized. Log file: C:\Users\ntecadmin\PycharmProjects\Straker_AutomationChallenge\logs\test_run_20250410_112029.log
+2025-04-10 11:20:35,235 - playwright_tests - INFO - Homepage loaded successfully.
+2025-04-10 11:20:36,436 - playwright_tests - INFO - Clicking the 'Learn More' button.

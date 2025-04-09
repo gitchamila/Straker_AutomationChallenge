@@ -1,6 +1,12 @@
 import pytest
 from playwright.sync_api import sync_playwright
 import os
+from utils.logger import get_logger
+from pathlib import Path
+from datetime import datetime
+
+# Initialize logger
+logger = get_logger()
 
 def pytest_addoption(parser):
     parser.addini("base_url", "Base URL for the tests")
@@ -51,4 +57,5 @@ def pytest_runtest_makereport(item, call):
         except Exception as e:
             logger.error(f"Failed to take screenshot: {str(e)}")
             logger.exception(e)
+
 
