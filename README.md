@@ -9,11 +9,12 @@ project_root/
 ├── README.md
 ├── requirements.txt
 ├── playwright_config.py
-├── reports
+├── screenshots
 │   └── (generated on failure)
 ├── utils/
 │   ├── conftest.py
 │   └── result.py
+│   └── logger.py
 ├── pages/
 │   ├── __init__.py
 │   ├── basepage.py
