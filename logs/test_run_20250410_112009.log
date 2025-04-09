@@ -1,0 +1,8 @@
+2025-04-10 11:20:09,760 - playwright_tests - INFO - Logger initialized. Log file: C:\Users\ntecadmin\PycharmProjects\Straker_AutomationChallenge\logs\test_run_20250410_112009.log
+2025-04-10 11:20:15,726 - playwright_tests - INFO - Homepage loaded successfully.
+2025-04-10 11:20:16,998 - playwright_tests - INFO - Contact label clicked successfully.
+2025-04-10 11:20:18,086 - playwright_tests - INFO - Email subscription text box found and clicked.
+2025-04-10 11:20:19,109 - playwright_tests - INFO - Email address entered.
+2025-04-10 11:20:20,436 - playwright_tests - INFO - Subscribe button clicked successfully.
+2025-04-10 11:20:20,438 - playwright_tests - INFO - Verifying success message visibility and text.
+2025-04-10 11:20:22,372 - playwright_tests - INFO - Verification passed.
