@@ -8,9 +8,12 @@ This repository contains a Playwright Python test automation framework for testi
 project_root/
 ├── README.md
 ├── requirements.txt
-├── playwright_config.py
-├── screenshots
-│   └── (generated on failure)
+├── pytest.ini
+├── .gitattributes
+├── logs/
+│   └── test_log.log
+├── assets
+│   └── style.css
 ├── utils/
 │   ├── conftest.py
 │   └── result.py
@@ -51,10 +54,28 @@ project_root/
    playwright install
    
 ## Running Tests
+To run all tests:
+```
+pytest --html=report/my_report.html 
+```
 
 To run a specific test:
 ```
-pytest tests/test_product_navigation.py
+pytest tests/test_contact_subscription.py --html=report/my_report.html
+pytest tests/test_product_navigation.py --html=report/my_report.html
+```
+
+How to open my_report.html report:
+```
+After executing the test cases (either all tests or specific ones), a test report named my_report.html will be generated in the report of the project.
+
+To view the test report:
+
+1.Locate the my_report.html file in the project root.
+2.Right-click on the file.
+3.Navigate to: Open in > Browser > [Select your preferred browser]
+
+Note: Ensure your development environment supports "Open in Browser" functionality (e.g., VS Code with the appropriate extension).
 ```
 
 ## Test Scenarios
